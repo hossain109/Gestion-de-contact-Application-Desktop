@@ -1,0 +1,101 @@
+[
+   {
+      "nom": "Philippe",
+      "prenom": "Auguste",
+      "email": "abc@gmail.com",
+      "photo": "a.PNG",
+      "address": {
+         "code": 75000,
+         "ville": "paris",
+         "pays": "France"
+      }
+   },
+   {
+      "nom": "Victor",
+      "prenom": "Hugo",
+      "email": "def@gmail.com",
+      "photo": "b.PNG",
+      "address": {
+         "code": 95000,
+         "ville": "Cergy",
+         "pays": "France"
+      }
+   },
+   {
+      "nom": "Nicloas",
+      "prenom": "Sarkozy",
+      "email": "ghi@gmail.com",
+      "photo": "c.PNG",
+      "address": {
+         "code": 93000,
+         "ville": "Saint-denis",
+         "pays": "France"
+      }
+   },
+   {
+      "nom": "Max",
+      "prenom": "Krams",
+      "email": "krams@usa.com",
+      "address": {
+         "addressRue": "1 rue des pyramides",
+         "code": "75001",
+         "ville": "paris",
+         "pays": "france"
+      }
+   },
+   {
+      "nom": "sohrab",
+      "prenom": "hossain ",
+      "email": "hossain@yahoo.com",
+      "address": {
+         "addressRue": "19 rue pinel",
+         "code": "93200",
+         "ville": "saint denis",
+         "pays": "france"
+      }
+   },
+   {
+      "nom": "Dark",
+      "prenom": "Claire",
+      "email": "claire@gmail.com",
+      "address": {
+         "addressRue": "22 av philippe auguste",
+         "code": "75011",
+         "ville": "paris",
+         "pays": "France"
+      }
+   },
+   {
+      "nom": "sdf",
+      "prenom": "sdfsd",
+      "email": "fdsfsdfsdf",
+      "address": {
+         "addressRue": "sdfsdfsdf",
+         "code": "6556",
+         "ville": "sdfsdf",
+         "pays": "sdf"
+      }
+   },
+   {
+      "nom": "sdfdsfsd",
+      "prenom": "fdsf",
+      "email": "dsfdsfdsf",
+      "address": {
+         "addressRue": "sdfsdfds",
+         "code": "6445",
+         "ville": "sdfsdf",
+         "pays": "sdfsdfsdfsd"
+      }
+   },
+   {
+      "nom": "tttttttt",
+      "prenom": "ttttttttee",
+      "email": "teeteeeeeeeee",
+      "address": {
+         "addressRue": "ettttttttt",
+         "code": "656565656565",
+         "ville": "eettttttttt",
+         "pays": "etttttttttttttttttttttttttttttt"
+      }
+   }
+]

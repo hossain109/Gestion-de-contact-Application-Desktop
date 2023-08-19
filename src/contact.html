@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Créer / Modifier Contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h3 mb-3">Créer un contact</h1>
+      <form action="" class="form form-control">
+        <ul id="contact-list">
+          <li class="contact-list-item">
+            <div class="field photo">
+              <img src="" alt="" id="contactImage" />
+              <input type="file" name="uplaod" id="upload" />
+            </div>
+            <div class="field">
+              <label for="first-name">Nom </label>
+              <input
+                type="text"
+                id="first-name"
+                class="form-control"
+                name="first-name"
+                required
+              />
+              <input
+                type="checkbox"
+                name="chk-first-name"
+                id="chk-first-name"
+              />
+            </div>
+
+            <div class="field">
+              <label for="last-name">Prénom </label>
+              <input
+                type="text"
+                id="last-name"
+                class="form-control"
+                name="last-name"
+                required
+              />
+              <input type="checkbox" name="chk-last-name" id="chk-last-name" />
+            </div>
+
+            <div class="field">
+              <label for="email">Email </label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+              <input type="checkbox" name="chk-email" id="chk-email" />
+            </div>
+            <div id="adress" class="field">
+              <label for="adress">Adresse </label>
+
+              <div class="field">
+                <label for="rue">Rue </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="adress-rue"
+                  name="adress-rue"
+                />
+                <input type="checkbox" name="chk-rue" id="chk-rue" />
+              </div>
+              <div class="field">
+                <label for="adress-code-postal">Code postal </label>
+                <input
+                  type="number"
+                  id="adress-code-postal"
+                  class="form-control"
+                  name="adress-code-postal"
+                />
+                <input
+                  type="checkbox"
+                  name="chk-adress-code-postal"
+                  id="chk-adress-code-postal"
+                />
+              </div>
+              <div class="field">
+                <label for="adress-ville">Ville </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="adress-ville"
+                  name="adress-ville"
+                />
+                <input
+                  type="checkbox"
+                  name="chk-adress-ville"
+                  id="chk-adress-ville"
+                />
+              </div>
+              <div class="field">
+                <label for="adress-pays">Pays </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="adress-pays"
+                  name="adress-pays"
+                />
+                <input
+                  type="checkbox"
+                  name="chk-adress-pays"
+                  id="chk-adress-pays"
+                />
+              </div>
+            </div>
+          </li>
+          <button id="btn-create-contact" class="btn btn-info" type="submit">
+            Creéer Contact
+          </button>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>
