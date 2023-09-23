@@ -29,7 +29,7 @@ const createWindow = () => {
   mainWindow.loadFile(path.join(__dirname, "index.html"));
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  //mainWindow.webContents.openDevTools();
 };
 //recevoir response sur click button exporter des contact
 ipcMain.handle("click-for-exporter", async (event) => {
@@ -137,7 +137,7 @@ ipcMain.handle("insert-contact", (event, contact) => {
 });
 
 //recevoir requete pour image et inserer sur dossier image"
-
+/*
 ipcMain.handle("send-image", async (event, pathUpload) => {
   const image = nativeImage.createFromPath(pathUpload);
   const bufferImage = image.toDataURL();
@@ -149,7 +149,7 @@ ipcMain.handle("send-image", async (event, pathUpload) => {
     else console.log("image enregistre");
   });
 });
-
+*/
 //importer fichier
 ipcMain.handle("import-fichier", async (e) => {
   //fichier json
@@ -158,12 +158,12 @@ ipcMain.handle("import-fichier", async (e) => {
 
   const { canceled, filePaths } = await dialog.showOpenDialog();
   const filePathsString = filePaths.toString();
-
+  // console.log(filePathsString);
   if (!canceled) {
     //fichier à importer
     let importFile = fs.readFileSync(filePathsString);
     let importFileData = JSON.parse(importFile);
-
+    console.log(importFileData);
     importFileData.map((eachObject) => {
       jsonFileData.push(eachObject);
     });

@@ -9,6 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
+    "build":"electron-forge package .",
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
@@ -18,6 +19,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "electron-packager": "^17.1.2",
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {

@@ -25,13 +25,13 @@ window.addEventListener("DOMContentLoaded", () => {
     datas.map((data) => {
       const li = document.createElement("li");
       //si l'image existe
-      if (data.photo) {
-        let image = document.createElement("img");
-        image.setAttribute("src", imagedir + data.photo);
-        image.setAttribute("height", 100);
-        image.setAttribute("width", 100);
-        li.appendChild(image);
-      }
+      /* if (data.photo) {
+         let image = document.createElement("img");
+         image.setAttribute("src", imagedir + data.photo);
+         image.setAttribute("height", 100);
+         image.setAttribute("width", 100);
+         li.appendChild(image);
+       }*/
 
       liste.appendChild(li);
       li.innerHTML += data.nom + " ";
@@ -75,14 +75,14 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 });
 //envoyer requete pour upload une image depuis processus main
-window.addEventListener("DOMContentLoaded", () => {
+/*window.addEventListener("DOMContentLoaded", () => {
   const upload = document.querySelector("#upload");
   upload.addEventListener("change", (e) => {
     const pathUpload = e.target.files[0].path;
     console.log(pathUpload);
     ipcRenderer.invoke("send-image", pathUpload);
   });
-});
+});*/
 
 //const pathimage = pathUpload.split("\\");
 //const nomImage = pathimage[pathimage.length - 1];
@@ -93,6 +93,6 @@ window.addEventListener("DOMContentLoaded", () => {
   document.querySelector("#btnImport").addEventListener("click", (e) => {
     e.preventDefault();
     ipcRenderer.invoke("import-fichier");
-    // console.log("click");
+    //console.log("click");
   });
 });

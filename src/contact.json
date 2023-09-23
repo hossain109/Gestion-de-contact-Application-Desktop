@@ -23,7 +23,7 @@
    },
    {
       "nom": "Nicloas",
-      "prenom": "Sarkozy",
+      "prenom": "Chhoy",
       "email": "ghi@gmail.com",
       "photo": "c.PNG",
       "address": {
@@ -63,39 +63,6 @@
          "code": "75011",
          "ville": "paris",
          "pays": "France"
-      }
-   },
-   {
-      "nom": "sdf",
-      "prenom": "sdfsd",
-      "email": "fdsfsdfsdf",
-      "address": {
-         "addressRue": "sdfsdfsdf",
-         "code": "6556",
-         "ville": "sdfsdf",
-         "pays": "sdf"
-      }
-   },
-   {
-      "nom": "sdfdsfsd",
-      "prenom": "fdsf",
-      "email": "dsfdsfdsf",
-      "address": {
-         "addressRue": "sdfsdfds",
-         "code": "6445",
-         "ville": "sdfsdf",
-         "pays": "sdfsdfsdfsd"
-      }
-   },
-   {
-      "nom": "tttttttt",
-      "prenom": "ttttttttee",
-      "email": "teeteeeeeeeee",
-      "address": {
-         "addressRue": "ettttttttt",
-         "code": "656565656565",
-         "ville": "eettttttttt",
-         "pays": "etttttttttttttttttttttttttttttt"
       }
    }
 ]
